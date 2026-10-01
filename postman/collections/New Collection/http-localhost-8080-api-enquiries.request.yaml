@@ -1,0 +1,9 @@
+$kind: http-request
+name: " http://localhost:8080/api/enquiries"
+description: ""
+url: " http://localhost:8080/api/enquiries"
+method: GET
+body:
+  type: json
+  content: ""
+order: 1790791279178
