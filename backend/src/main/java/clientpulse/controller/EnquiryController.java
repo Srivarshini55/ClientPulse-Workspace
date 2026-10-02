@@ -19,7 +19,10 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/enquiries")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://clientpulse-workspace.onrender.com"
+})
 public class EnquiryController {
 
     private final EnquiryService enquiryService;
