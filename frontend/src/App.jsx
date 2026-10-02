@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "https://clientpulse-backend-qgwx.onrender.com";
+const API_URL = "https://clientpulse-backend-qgwx.onrender.com/api/enquiries";
 
 const STATUS_OPTIONS = [
   "New",
